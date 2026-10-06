@@ -6,5 +6,5 @@ __pycache__/
 outputs/*.json
 outputs/*.csv
 outputs/*.xlsx
-
+docs/loom_script.md
 ~$*.xlsx
