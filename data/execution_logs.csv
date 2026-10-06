@@ -1,0 +1,20 @@
+workflow_id,status,duration_ms,step,error
+WF001,success,420,inventory_load,
+WF001,success,510,threshold_check,
+WF001,failure,1300,inventory_load,CSV timeout
+WF002,success,700,price_compare,
+WF002,failure,1600,price_compare,Vendor SKU missing
+WF002,success,680,price_compare,
+WF005,failure,450,order_lookup,Order not found
+WF005,success,1500,shipment_lookup,
+WF005,success,620,order_lookup,
+WF006,success,2100,similarity,Large catalog
+WF006,failure,1800,similarity,Malformed attribute
+WF007,success,900,content_generation,
+WF007,success,950,content_generation,
+WF008,success,800,intent_classification,
+WF008,success,820,intent_classification,
+WF009,success,600,ranking,
+WF009,success,610,ranking,
+WF010,success,500,aggregation,
+WF010,failure,1400,aggregation,Log parse error

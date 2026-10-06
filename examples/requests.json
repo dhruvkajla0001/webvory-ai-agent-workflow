@@ -1,0 +1,47 @@
+[
+  {
+    "request": "Which products need restocking?"
+  },
+  {
+    "request": "Find products where vendor price differs by more than 10%."
+  },
+  {
+    "request": "Process this vendor spreadsheet and show invalid rows."
+  },
+  {
+    "request": "Generate SEO content for this product."
+  },
+  {
+    "request": "Where is order ORD-1001?"
+  },
+  {
+    "request": "Find likely duplicate products in the catalog."
+  },
+  {
+    "request": "Create a campaign brief for the new collection.",
+    "context": {
+      "goal": "Increase launch sales",
+      "audience": "urban professionals",
+      "promotion": "15% launch discount",
+      "dates": "Oct 10\u2013Oct 20"
+    }
+  },
+  {
+    "request": "Classify these keywords and map them to pages."
+  },
+  {
+    "request": "Assign this urgent task to the best available developer.",
+    "context": {
+      "task_description": "Build a FastAPI endpoint for product analytics",
+      "skills": [
+        "python",
+        "fastapi"
+      ],
+      "priority": "urgent",
+      "deadline": "2026-10-10"
+    }
+  },
+  {
+    "request": "Which workflows are failing most often?"
+  }
+]

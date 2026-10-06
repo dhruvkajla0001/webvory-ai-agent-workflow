@@ -1,0 +1,4 @@
+order_id,customer_email,status,items,carrier,tracking_number,shipment_status
+ORD-1001,alice@example.com,Shipped,UrbanTrail Backpack|Metro Bottle,BlueDart,BD123456,In Transit
+ORD-1002,bob@example.com,Delivered,CityPack Sling,Delhivery,DL998877,Delivered
+ORD-1003,carol@example.com,Processing,Travel Organizer,,,Preparing
